@@ -25,13 +25,13 @@ a{
 }
 nav {
     padding: 1.5rem 2rem;
-    background-color: #ffffff9c;
+    background-color: #ffffff;
     color: #fff;
 
 }
 
 input[type="checkbox"] {
-    display: none; /* Hide the checkbox input element */
+    display: none; 
 }
 
 .checkbtn {
@@ -60,7 +60,7 @@ input[type="checkbox"] {
     position: absolute;
     top: 4.7rem;
     left: 0;
-    background: #ffffff68;
+    background: #ffffff;
     z-index: 1;
     width: 200px;
 }
@@ -220,12 +220,13 @@ input[type="checkbox"] {
     width: 100vw;
     height: 100vh;
     position: relative;
+    margin-bottom: 20%;
 }
 
 .nav-section div {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+    background-color: rgba(0, 0, 0, 0.739); /* Slightly transparent background */
     padding: 80px;
     display: flex;
     flex-direction: column;
@@ -255,8 +256,8 @@ input[type="checkbox"] {
         height: 80vh;
         position: relative;
     }
-    .nav-sectio .title-r-b {
-        font-size: 1.2rem;
+    .nav-section .title-r-b {
+        font-size: 2.4rem;
     }
 
     .subtitle-w {
